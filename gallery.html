@@ -1,349 +1,689 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galerie - ASM Boxe Mulhouse</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <h1>ASM<span>BOXE</span></h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="classes.html">Cours</a></li>
-                <li><a href="coaches.html">Coachs</a></li>
-                <li><a href="gallery.html" class="active">Galerie</a></li>
-                <li><a href="contact.html" class="btn-contact">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
+      <nav>
+        <div class="logo">
+          <h1>ASM<span>BOXE</span></h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="classes.html">Cours</a></li>
+          <li><a href="equipe.html">Équipe</a></li>
+          <li><a href="gallery.html" class="active">Galerie</a></li>
+          <li><a href="contact.html" class="btn-contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="page-header">
-            <h1>Galerie</h1>
-            <div class="breadcrumbs">
-                <a href="index.html">Accueil</a> / <span>Galerie</span>
-            </div>
-        </section>
+      <section class="page-header">
+        <h1>Galerie</h1>
+        <div class="breadcrumbs">
+          <a href="index.html">Accueil</a> / <span>Galerie</span>
+        </div>
+      </section>
 
-        <section class="gallery-intro">
-            <div class="container">
-                <p class="animate-on-scroll">Découvrez l'ambiance et les moments forts d'ASM Boxe Mulhouse à travers notre galerie photo. De l'intensité des entraînements à la joie des victoires, ces images témoignent de la vie de notre club.</p>
-            </div>
-        </section>
+      <section class="gallery-intro">
+        <div class="container">
+          <p class="animate-on-scroll">
+            Découvrez l'ambiance et les moments forts d'ASM Boxe Mulhouse à
+            travers notre galerie photo. De l'intensité des entraînements à la
+            joie des victoires, ces images témoignent de la vie de notre club.
+          </p>
+        </div>
+      </section>
 
-        <section class="gallery-filter">
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">Tous</button>
-                <button class="filter-btn" data-filter="training">Entraînements</button>
-                <button class="filter-btn" data-filter="competition">Compétitions</button>
-                <button class="filter-btn" data-filter="events">Événements</button>
-                <button class="filter-btn" data-filter="club">Vie du club</button>
+      <section class="gala-featured">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll">Gala de Boxe ASM</h2>
+          <p class="animate-on-scroll">
+            Revivez les moments forts de notre Gala de Boxe annuel, événement
+            phare du club où nos boxeurs démontrent leur talent et leur
+            technique devant un public passionné.
+          </p>
+          <div class="gala-highlight animate-on-scroll">
+            <div class="gala-image-main">
+              <img
+                src="gallerie/Gala_de_Boxe/882172_557598214274225_1280339646_o.jpg"
+                alt="Gala de Boxe ASM - Image principale"
+              />
             </div>
-        </section>
+            <div class="gala-stats">
+              <div class="stat-box">
+                <i class="fas fa-users"></i>
+                <span class="stat-number">200+</span>
+                <span class="stat-label">Spectateurs</span>
+              </div>
+              <div class="stat-box">
+                <i class="fas fa-fist-raised"></i>
+                <span class="stat-number">15</span>
+                <span class="stat-label">Combats</span>
+              </div>
+              <div class="stat-box">
+                <i class="fas fa-trophy"></i>
+                <span class="stat-number">3</span>
+                <span class="stat-label">Titres</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="gallery-grid">
-            <div class="gallery-item animate-on-scroll" data-category="training">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-training" alt="Entraînement de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Entraînement technique</h3>
-                            <p>Séance de travail sur les combinaisons avancées</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="competition">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-match" alt="Combat de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Championnat régional 2022</h3>
-                            <p>Victoire de Mathieu en catégorie -75kg</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="events">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-event" alt="Événement de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Gala annuel 2023</h3>
-                            <p>Soirée de combats et démonstrations</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="club">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?team-boxing" alt="Équipe de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>L'équipe compétition</h3>
-                            <p>Photo de groupe avant le championnat</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="training">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-gym" alt="Salle de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Séance de sparring</h3>
-                            <p>Entraînement au combat en conditions réelles</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="competition">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-ring" alt="Ring de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Tournoi international</h3>
-                            <p>Sofia représentant le club à l'étranger</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="events">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-workshop" alt="Atelier de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Journée portes ouvertes</h3>
-                            <p>Initiation gratuite pour tous</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="club">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-class" alt="Cours de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Cours débutants</h3>
-                            <p>Premiers pas dans le monde de la boxe</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="training">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-training-women" alt="Entraînement femmes">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Boxe féminine</h3>
-                            <p>Entraînement spécifique avec Sophie</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="competition">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-medal" alt="Médaille de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Podium national</h3>
-                            <p>Nos trois médaillés des championnats de France</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="events">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-champion" alt="Champion de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Master class</h3>
-                            <p>Visite d'un champion national au club</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="club">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-kids" alt="Boxe enfants">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Section jeunes</h3>
-                            <p>Les champions de demain s'entraînent aujourd'hui</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="training">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-coach" alt="Coach de boxe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Coaching technique</h3>
-                            <p>Laurent donnant des conseils personnalisés</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="competition">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-corner" alt="Coin du ring">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Dans les cordes</h3>
-                            <p>Moment de coaching entre deux rounds</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="events">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-charity" alt="Événement caritatif">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Boxe solidaire</h3>
-                            <p>Gala caritatif organisé par le club</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item animate-on-scroll" data-category="club">
-                <div class="gallery-image">
-                    <img src="https://source.unsplash.com/random/800x600/?boxing-team-celebration" alt="Célébration d'équipe">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Anniversaire du club</h3>
-                            <p>Célébration des 35 ans d'ASM Boxe</p>
-                        </div>
-                        <div class="gallery-zoom">
-                            <i class="fas fa-search-plus"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section class="gallery-filter">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="gala">Gala de Boxe</button>
+          <button class="filter-btn" data-filter="training">
+            Entraînements
+          </button>
+          <button class="filter-btn" data-filter="competition">
+            Compétitions
+          </button>
+          <button class="filter-btn" data-filter="events">Événements</button>
+          <button class="filter-btn" data-filter="club">Vie du club</button>
+        </div>
+      </section>
 
-        <div class="gallery-lightbox">
-            <span class="lightbox-close"><i class="fas fa-times"></i></span>
-            <div class="lightbox-content">
-                <img src="" alt="" class="lightbox-image">
-                <div class="lightbox-caption">
-                    <h3 class="lightbox-title"></h3>
-                    <p class="lightbox-description"></p>
-                </div>
+      <section class="gallery-grid">
+        <!-- Gala de Boxe Images -->
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/882172_557598214274225_1280339646_o.jpg"
+              alt="Gala de Boxe ASM"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Gala de Boxe ASM</h3>
+                <p>Soirée exceptionnelle de combats et démonstrations</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
             </div>
-            <span class="lightbox-prev"><i class="fas fa-chevron-left"></i></span>
-            <span class="lightbox-next"><i class="fas fa-chevron-right"></i></span>
+          </div>
         </div>
 
-        <section class="gallery-cta">
-            <div class="cta-content animate-on-scroll">
-                <h2>Envie de rejoindre notre club ?</h2>
-                <p>Venez vivre l'expérience ASM Boxe Mulhouse et peut-être figurerez-vous bientôt dans notre galerie !</p>
-                <a href="contact.html" class="btn">Essayer gratuitement</a>
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/882823_557599090940804_919540135_o.jpg"
+              alt="Combat Gala ASM"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Combat du Gala</h3>
+                <p>Intense confrontation sur le ring</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/883174_557599117607468_1290481568_o.jpg"
+              alt="Action de combat"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Action sur le ring</h3>
+                <p>Moment d'intense action pendant le gala</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/892437_557601077607272_1849502422_o.jpg"
+              alt="Spectacle de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Spectacle de boxe</h3>
+                <p>Démonstration technique impressionnante</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/150483_559789327388447_1790356370_n.jpg"
+              alt="Boxeurs du gala"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Boxeurs en action</h3>
+                <p>Nos combattants lors du gala annuel</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/417401_559789447388435_195317872_n.jpg"
+              alt="Combat technique"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Combat technique</h3>
+                <p>Échange technique de haut niveau</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/417594_559789540721759_1528897333_n.jpg"
+              alt="Moment intense"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Moment intense</h3>
+                <p>L'intensité du combat au plus haut niveau</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/522669_559789597388420_733159921_n.jpg"
+              alt="Gala ASM Mulhouse"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Gala ASM Mulhouse</h3>
+                <p>Ambiance exceptionnelle de notre événement</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/537690_559789270721786_204360122_n.jpg"
+              alt="Performance de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Performance de boxe</h3>
+                <p>Démonstration de nos boxeurs talentueux</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/540826_559786910722022_798548098_n.jpg"
+              alt="Ring de gala"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Ring de gala</h3>
+                <p>Le ring principal de notre événement</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/544482_559789504055096_725834255_n.jpg"
+              alt="Confrontation"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Confrontation</h3>
+                <p>Face à face avant le combat</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/575993_559789437388436_1799777287_n.jpg"
+              alt="Combat dynamique"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Combat dynamique</h3>
+                <p>Échange rapide et technique</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item animate-on-scroll" data-category="gala">
+          <div class="gallery-image">
+            <img
+              src="gallerie/Gala_de_Boxe/580463_559786900722023_1576537550_n.jpg"
+              alt="Soirée gala"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Soirée gala</h3>
+                <p>L'ambiance unique de notre soirée</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Images existantes -->
+        <div class="gallery-item animate-on-scroll" data-category="training">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-training"
+              alt="Entraînement de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Entraînement technique</h3>
+                <p>Séance de travail sur les combinaisons avancées</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="competition">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-match"
+              alt="Combat de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Championnat régional 2022</h3>
+                <p>Victoire de Mathieu en catégorie -75kg</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-event"
+              alt="Événement de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Gala annuel 2023</h3>
+                <p>Soirée de combats et démonstrations</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="club">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?team-boxing"
+              alt="Équipe de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>L'équipe compétition</h3>
+                <p>Photo de groupe avant le championnat</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="training">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-gym"
+              alt="Salle de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Séance de sparring</h3>
+                <p>Entraînement au combat en conditions réelles</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="competition">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-ring"
+              alt="Ring de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Tournoi international</h3>
+                <p>Sofia représentant le club à l'étranger</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-workshop"
+              alt="Atelier de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Journée portes ouvertes</h3>
+                <p>Initiation gratuite pour tous</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="club">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-class"
+              alt="Cours de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Cours débutants</h3>
+                <p>Premiers pas dans le monde de la boxe</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="training">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-training-women"
+              alt="Entraînement femmes"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Boxe féminine</h3>
+                <p>Entraînement spécifique avec Sophie</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="competition">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-medal"
+              alt="Médaille de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Podium national</h3>
+                <p>Nos trois médaillés des championnats de France</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-champion"
+              alt="Champion de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Master class</h3>
+                <p>Visite d'un champion national au club</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="club">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-kids"
+              alt="Boxe enfants"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Section jeunes</h3>
+                <p>Les champions de demain s'entraînent aujourd'hui</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="training">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-coach"
+              alt="Coach de boxe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Coaching technique</h3>
+                <p>Laurent donnant des conseils personnalisés</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="competition">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-corner"
+              alt="Coin du ring"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Dans les cordes</h3>
+                <p>Moment de coaching entre deux rounds</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-charity"
+              alt="Événement caritatif"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Boxe solidaire</h3>
+                <p>Gala caritatif organisé par le club</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="club">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/800x600/?boxing-team-celebration"
+              alt="Célébration d'équipe"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Anniversaire du club</h3>
+                <p>Célébration des 35 ans d'ASM Boxe</p>
+              </div>
+              <div class="gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallery-lightbox">
+        <span class="lightbox-close"><i class="fas fa-times"></i></span>
+        <div class="lightbox-content">
+          <img src="" alt="" class="lightbox-image" />
+          <div class="lightbox-caption">
+            <h3 class="lightbox-title"></h3>
+            <p class="lightbox-description"></p>
+          </div>
+        </div>
+        <span class="lightbox-prev"><i class="fas fa-chevron-left"></i></span>
+        <span class="lightbox-next"><i class="fas fa-chevron-right"></i></span>
+      </div>
+
+      <section class="gallery-cta">
+        <div class="cta-content animate-on-scroll">
+          <h2>Envie de rejoindre notre club ?</h2>
+          <p>
+            Venez vivre l'expérience ASM Boxe Mulhouse et peut-être
+            figurerez-vous bientôt dans notre galerie !
+          </p>
+          <a href="contact.html" class="btn">Essayer gratuitement</a>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h2>ASM<span>BOXE</span></h2>
-                <p>Le club de boxe anglaise de référence à Mulhouse</p>
-            </div>
-            <div class="footer-links">
-                <h3>Liens rapides</h3>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="about.html">À propos</a></li>
-                    <li><a href="classes.html">Cours</a></li>
-                    <li><a href="coaches.html">Coachs</a></li>
-                    <li><a href="gallery.html">Galerie</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Rue de la Boxe, 68100 Mulhouse</p>
-                <p><i class="fas fa-phone"></i> +33 3 89 XX XX XX</p>
-                <p><i class="fas fa-envelope"></i> contact@asmboxe-mulhouse.fr</p>
-            </div>
-            <div class="footer-social">
-                <h3>Suivez-nous</h3>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>ASM<span>BOXE</span></h2>
+          <p>Le club de boxe anglaise de référence à Mulhouse</p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 ASM Boxe Mulhouse. Tous droits réservés.</p>
+        <div class="footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="classes.html">Cours</a></li>
+            <li><a href="equipe.html">Équipe</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Rue de la Boxe, 68100
+            Mulhouse
+          </p>
+          <p><i class="fas fa-phone"></i> +33 3 89 XX XX XX</p>
+          <p><i class="fas fa-envelope"></i> contact@asmboxe-mulhouse.fr</p>
+        </div>
+        <div class="footer-social">
+          <h3>Suivez-nous</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 ASM Boxe Mulhouse. Tous droits réservés.</p>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
-
